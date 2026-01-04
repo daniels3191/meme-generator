@@ -8,13 +8,14 @@
     <title>Ultimate Meme Generator</title>
 </head>
 
-<body class="main-layout ">
+<body class="main-layout">
 
-    <header class="header">
-        <div class="header-container">
-            <div class="logo">Memegen</div>
-            <nav class="nav">
-                <ul>
+    <header class="header main-layout full">
+        <div class="header-layout grid space-between flow-column align-center">
+            <div class="logo"><img src="/img/logo/logo.png" alt=""></div>
+            <nav class="main-nav ">
+                <ul class="clean-list grid flow-column">
+                    <li><a href="#">Memes</a></li>
                     <li><a href="#">Gallery</a></li>
                     <li><a href="#">About</a></li>
                 </ul>
@@ -22,11 +23,41 @@
         </div>
     </header>
     <main class="main-content">
+        <div class="gallery-container">
+        <nav class="gallery-nav">
+            <div class="img-search">Enter search keyword</div>
+        </nav>
+        <div class="img-container">
+            <a href="editor.html"> 
+                <img src="img/gallery/1.jpg" onclick="renderMeme(this)" alt="">
+            </a>
+           
+        </div>
+        </div>
+
+        <div class="media">media shering</div>
+
+        <section class="editor-main-layout">
+    
+        
+                   <div class="canvas-container">
+            <p>Hello editor</p>
+            <canvas width="400" height="400">
+                
+            </canvas>
+        </div>
+        <div class="editor-container">
+            editor
+        </div>
+
+        </section>
  
     </main>
 
 
-    <footer class="main-footer full main-layout ">
+    <footer class="footer">
+        <div class="logo">Memegen</div>
+        <div class="small">all rights reserved 2019</div>
 
     </footer>
 
